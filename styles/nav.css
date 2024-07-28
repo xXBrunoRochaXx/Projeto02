@@ -1,0 +1,26 @@
+nav{
+  display: flex; /* colocalando todos os itens um do lado do outro*/
+  justify-content: space-between; /*dessa forma eu coloca um espaço entre a imagens e os intens de navegação*/
+  align-items: center; /* Aqui eu consigo alinhar os intens no eixo X */
+
+  line-height: 0;
+  padding-block: 20px ; /*Esse padding ele é adicionado apenas em cima e em baixo do elemento selecionado*/
+}
+
+nav ul{
+  list-style: none; /*Aqui eu removo a bolinha default da tag UL*/
+  display: flex;   /* colocalando todos os itens um do lado do outro*/
+  align-items: center; /* Aqui eu consigo alinhar os intens no eixo X */
+  gap: 24px; /* é adiconado um espaço apenas entre os elementos suas laterias continuam sem espaços*/
+
+  padding-block: 8px;
+}
+
+nav ul li:last-child img{ /*LAST-CHILD por eu ter duas imagens dentro da UL a LAST-CHILD permite que eu       selecione a ultima imagem da UL para aplicar as alterações abaixo, tornando a foto redonda*/
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+
+

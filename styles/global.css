@@ -20,8 +20,27 @@
   --text-sm: 12px/175% var(--font-family);
 }
 
-body{
-  font: var(--text-lg);
+body{ 
   color: var(--text-color-secondary);
   background-color: var(--backgroundo-color);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container{
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto; /*Como estou aplicando isso no meu global vai sempre deixar centralizado, pois segue o mesmo principio de do padding-inline só que com margem*/
+}
+
+.bg-surface-color{
+  background-color: var(--surface-color);
 }
