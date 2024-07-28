@@ -15,7 +15,7 @@ header .container{
   gap: 32px;
 }
 
-#profile > div{
+#profile > div{  /*Aqui eu to falando que estou acessando a minha primeira dic dentro do meu #PROFILE*/
   max-width: 384px;
 }
 
